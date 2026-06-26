@@ -17,7 +17,7 @@ jobs:
      - name: test models
        command: dbt test # This example will run all your tests.
 
- - name: nightly
+ - name: assignmt_nightly
    schedule: 0 0 * * * # This example will run every day at midnight.
    steps:
      - name: run models
